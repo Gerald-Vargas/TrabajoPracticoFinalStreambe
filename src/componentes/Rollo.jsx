@@ -273,7 +273,8 @@ export default function Rollo({
             <button onClick={() => document.getElementById("fileInput").click()}>
               +
             </button>
-            {images.length > 0 && (
+            {
+              images.length > 0 && (
               <button id="delete-image" onClick={handleDeleteImage}>
                 🗑
               </button>
