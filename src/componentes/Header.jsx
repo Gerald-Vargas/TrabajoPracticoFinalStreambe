@@ -6,6 +6,7 @@ function Header() {
     <header className="header">
       <div className="header-content">
         <h1>🎥Rollo Digital</h1>
+        <title>Dejaron la cuenta abierta</title>
       </div>
     </header>
   );
